@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWorld", "HelloWorld\HelloWorld.csproj", "{1E0056A4-BC5A-42CD-A775-D9A1FB7B8755}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4F37A3FE-3DB3-490C-9A1D-8437C631E617}"
+	ProjectSection(SolutionItems) = preProject
+		manifest.yml = manifest.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1E0056A4-BC5A-42CD-A775-D9A1FB7B8755}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E0056A4-BC5A-42CD-A775-D9A1FB7B8755}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E0056A4-BC5A-42CD-A775-D9A1FB7B8755}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E0056A4-BC5A-42CD-A775-D9A1FB7B8755}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {799D54FA-9DA8-42A5-BFF1-8209EFAB70F7}
+	EndGlobalSection
+EndGlobal

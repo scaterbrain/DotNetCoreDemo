@@ -1,0 +1,5 @@
+---
+applications:
+- name: helloworld
+  buildpack: dotnet-core_buildpack
+  instances: 1
