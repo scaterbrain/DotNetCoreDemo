@@ -33,6 +33,13 @@ namespace HelloWorld.Controllers
             return View();
         }
 
+        public IActionResult Environment()
+        {
+            ViewBag.Message = "Your environment page.";
+
+            return View();
+        }
+
         public IActionResult End()
         {
             Process.GetCurrentProcess().Kill();
