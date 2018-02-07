@@ -7,12 +7,24 @@
 
 <h2>Environment Variables</h2>
 <div class="environment">
-    @foreach (DictionaryEntry entry in environmentVariables)
-    {
-        <div class="item">
-            <div class="key">@entry.Key</div>
-            <div class="value">@entry.Value</div>
-        </div>
-    }
+
+    <table style="width:100%">
+        <tr>
+            <th>Key</th>
+            <th>Value</th>
+        </tr>
+
+        @foreach (DictionaryEntry entry in environmentVariables)
+        {
+            <tr>
+                <th>@entry.Key</th>
+                <th>@entry.Value</th>
+            </tr>
+//            <div class="item">
+ //               <div class="key">@entry.Key</div>
+//                <div class="value">@entry.Value</div>
+ //           </div>
+        }
+        </table>
 
 </div>
